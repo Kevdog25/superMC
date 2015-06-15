@@ -1,3 +1,4 @@
 data/*.*
-s95p-PCE/*
 *.e
+build/*.*
+parameters.dat
