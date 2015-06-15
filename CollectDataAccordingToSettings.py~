@@ -1,0 +1,75 @@
+import os
+import sys
+import ConfigParser
+import string
+import time
+
+
+def RunSuperMCWithArgs(args = '',instances = 8):
+	"""Runs ./superMC with [instances] terminals at once with the correct arguments"""
+	i = 1
+	while i < instances:
+		os.system('gnome-terminal -e \"./superMC.e ' + args+"\"")
+		i+=1
+
+	time.sleep(6)
+	os.system('./superMC.e ' + args)
+
+
+def CutAndMoveData(plotUtilityDirectory,destination,args,name):
+	"""Cuts the data using the pythonPlotUtility. Requires the location be specified"""
+
+	if name is not None:
+		folderName = name
+	else:
+		folderName = string.replace(args,' ','_')
+
+	destinationFolder = destination + '/' + folderName
+
+	os.system('mkdir -p ' + destinationFolder)
+	centralityCutParams = ['Npart','total_entropy']
+
+	#Make the database
+	os.system('python '+plotUtilityDirectory + '/EbeCollectorShell_minbisaEcc.py data')
+
+	#Cut the data
+	for param in centralityCutParams:
+		os.system('python ' + plotUtilityDirectory + '/minbias_CentralityCut.py data/minbiasEcc_sn.db -type ' + param)
+		#os.system('mv eccnStatistics_ed_'+param+'.dat ' + destinationFolder)
+		os.system('mv eccnStatistics_sd_'+param+'.dat ' + destinationFolder)
+		os.system('mv centralityCut_'+param+'.dat ' + destinationFolder)
+
+	os.system('python ' + plotUtilityDirectory + '/minbias_ImpactParameterCut.py data/minbiasEcc_sn.db')
+
+	#Plot the eccentricity by impact param
+	os.system('python ' + plotUtilityDirectory + '/PlotEccs.py')
+	#Move the files over
+	#os.system('mv eccnStatistics_ed_b.dat ' + destinationFolder)
+	os.system('mv eccnStatistics_sd_b.dat ' + destinationFolder)
+	os.system('mv centralityCut_b.dat ' + destinationFolder)
+	os.system('mv data/minbiasEcc_sn.db ' + destinationFolder)
+	os.system('mv Eccentricies.png ' + destinationFolder)
+
+if __name__ == "__main__":
+
+	Config = ConfigParser.ConfigParser()
+	Config.read('BatchCollectionSettings.txt')
+
+	locationOfPlotUtility = Config.get('FolderParams','LocationOfPlotUtility')
+	destination = Config.get('FolderParams','Destination')
+
+
+	superMCArgs = Config.items('SuperMCArgs')
+
+	instances = Config.get('RunTimeParams','Instances')
+	names = Config.items('FileNames')
+
+	for i in range(len(superMCArgs)):
+		RunSuperMCWithArgs(superMCArgs[i][1],int(instances))
+		if i < len(names):
+			CutAndMoveData(locationOfPlotUtility,destination,superMCArgs[i][1],names[i][1])
+		else:
+			CutAndMoveData(locationOfPlotUtility,destination,superMCArgs[i][1],None)
+		os.system('rm -fr data/*')
+
+	os.system('cp parameters.dat ' + destination + '/baseParameters.dat');

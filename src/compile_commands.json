@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/main.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/Bases.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/MCnucl.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/GlueDensity.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/MakeDensity.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/KLNModel.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/OverLap.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/Largex.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/Regge96.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/rcBKfunc.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/MathBasics.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/ParameterReader.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/arsenal.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/EOS.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/NBD.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/RandomVariable.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/TableFunction.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/Table.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/HulthenFunc.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/GaussianDistribution.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/Particle.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/ParticipantLHC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp"
+},
+{
+  "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/ParticipantRHIC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp"
+}
+]

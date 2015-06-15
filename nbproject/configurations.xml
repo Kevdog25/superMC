@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <in>Bases.cpp</in>
+        <in>EOS.cpp</in>
+        <in>GaussianDistribution.cpp</in>
+        <in>GaussianNucleonsCal.cpp</in>
+        <in>GlueDensity.cpp</in>
+        <in>HulthenFunc.cpp</in>
+        <in>KLNModel.cpp</in>
+        <in>Largex.cpp</in>
+        <in>MCnucl.cpp</in>
+        <in>MakeDensity.cpp</in>
+        <in>MathBasics.cpp</in>
+        <in>NBD.cpp</in>
+        <in>OverLap.cpp</in>
+        <in>ParameterReader.cpp</in>
+        <in>ParticipantLHC.cpp</in>
+        <in>ParticipantRHIC.cpp</in>
+        <in>Particle.cpp</in>
+        <in>RandomVariable.cpp</in>
+        <in>Regge96.cpp</in>
+        <in>Table.cpp</in>
+        <in>TableFunction.cpp</in>
+        <in>arsenal.cpp</in>
+        <in>main.cpp</in>
+        <in>rcBKfunc.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>src/superMC.e</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/local/include</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="src/Bases.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/EOS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GaussianDistribution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GaussianNucleonsCal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GlueDensity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/HulthenFunc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/KLNModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Largex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MCnucl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MakeDensity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MathBasics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/NBD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/OverLap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ParameterReader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ParticipantLHC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ParticipantRHIC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Particle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/RandomVariable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Regge96.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Table.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/TableFunction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/arsenal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/rcBKfunc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
