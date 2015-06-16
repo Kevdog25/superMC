@@ -56,7 +56,7 @@ gauss_nucl_width = 0.5    # 4-> User specified width for Gaussian nucleons
 # Collision Optns
 ecm = 200                 # Beam Energy sqrt(s) in GeV
 bmin = 0.0                  # Minimum sampled impact parameter
-bmax = 12                  # Maximum sampled impact parameter
+bmax = 0.1                  # Maximum sampled impact parameter
 Npmin = 1                 # Minimum participant nucleon cut
 Npmax = 500               # Maximum participant nucleon cut
 
@@ -113,7 +113,7 @@ PT_order = 2              # =1 output the usual entropy/energy density profile; 
 d_PT = 0.1                # Step size of PT in GeV
 
 # Grid Optns
-maxx = 120398                 # Max grid value along x direction in fm
+maxx = 9                 # Max grid value along x direction in fm
 maxy = 9                 # Max grid value along y direction in fm 
 dx = 0.1                  # Step size along x direction in fm
 dy = 0.1                  # Step size along y direction in fm

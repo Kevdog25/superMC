@@ -171,7 +171,7 @@ void OverLap::GetTritonPosition(double& x1,double& y1,double& z1,double &x2,doub
 
 
    //This forces the triton to be in the transverse plane
-   double length = sqrt((x3-x1)*(x3-x1)+(y3-y1)*(y3-y1)+(z3-z1)*(z3-z1));
+   /*double length = sqrt((x3-x1)*(x3-x1)+(y3-y1)*(y3-y1)+(z3-z1)*(z3-z1));
    double e1[] = {(x3-x1)/length,(y3-y1)/length,(z3-z1)/length};
    double n[] = {e1[1]*(z2-z1)-e1[2]*(y2-y1),e1[2]*(x2-x1)-e1[0]*(z2-z1),e1[0]*(y2-y1)-e1[1]*(x2-x1)};
 
@@ -195,10 +195,10 @@ void OverLap::GetTritonPosition(double& x1,double& y1,double& z1,double &x2,doub
    z3 = 0;
    x1 = 0;
    y1 = 0;
-   z1 = 0;
-
+   z1 = 0;*/
+   
    //This gives it a random rotation
-   /*Point3D p3d1(x1,y1,z1);
+   Point3D p3d1(x1,y1,z1);
    p3d1.rotate(ctr, phir);
    x1 = p3d1.x; y1 = p3d1.y; z1 = p3d1.z;
 
@@ -208,7 +208,7 @@ void OverLap::GetTritonPosition(double& x1,double& y1,double& z1,double &x2,doub
 
    Point3D p3d3(x3,y3,z3);
    p3d3.rotate(ctr, phir);
-   x3 = p3d3.x; y3 = p3d3.y; z3 = p3d3.z;*/
+   x3 = p3d3.x; y3 = p3d3.y; z3 = p3d3.z;
 }
 
 // *** this function applies to deformed nuclei ***
