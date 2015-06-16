@@ -1,12 +1,10 @@
 [SuperMCArgs]
 
-arg1: gluon_field_toggle=0 shape_of_entropy=2 Aproj=2 Atarg=0
-arg2: gluon_field_toggle=0 shape_of_entropy=2 Aproj=3 Atarg=0
+arg1: gluon_field_toggle=0 shape_of_entropy=2 Aproj=3 Atarg=197
 
 [FileNames]
 
-f1: t_Intrinsic_Smooth
-f2: d_Intrinsic_Smooth
+f1: t_Au_200GeV_Smooth
 
 [FolderParams]
 Destination: ~/Desktop/DataCollectionAfterPoisson
@@ -14,7 +12,7 @@ LocationOfPlotUtility: ~/Desktop/pythonPlotUtility-master
 
 [RunTimeParams]
 
-Instances: 6
+Instances: 8
 
 [Unused]
 
