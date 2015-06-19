@@ -333,12 +333,10 @@ int MCnucl::getBinaryCollision()
   Ncoll=0;
   
   if(nucl1.size() == 0){
-    cout << "Projectile is missing. Dumping target entropy." << endl;
     for(int i=0;i<nucl2.size();i++)
       buildParticipants(nucl2[i],i,mapping_table2);
   }
   else if(nucl2.size() == 0){
-    cout << "Target is missing. Dumping Projectile entropy." << endl;
     for(int i=0;i<nucl1.size();i++)
       buildParticipants(nucl1[i],i,mapping_table1);
   }

@@ -1879,6 +1879,11 @@ void MakeDensity::generateEccTable(int nevent)
 
   // event start.
   int event=1;
+  // Be a bit verbose about the entropy.
+  if(proj->getAtomic() == 0)
+    cout << "Projectile is missing. Dumping target entropy." << endl;
+  if(targ->getAtomic() == 0)
+    cout << "Target is missing. Dumping projectile entropy." << endl;
   while (event<=nevent)
   {
     int tries = 0;
@@ -1935,7 +1940,8 @@ void MakeDensity::generateEccTable(int nevent)
     mc->deleteNucleus();
     if(cutdSdypassFlag)
     {
-      cout << "processing event: " << event << endl;
+      if(event % 200 == 0)
+        cout << "processing event: " << event << endl;
       event++;
     }
   } // <-> while (event<=nevent)
