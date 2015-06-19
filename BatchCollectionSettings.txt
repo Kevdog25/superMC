@@ -1,12 +1,23 @@
 [SuperMCArgs]
 
-arg1: gluon_field_toggle=0 shape_of_entropy=2 Aproj=2 Atarg=0
-arg2: gluon_field_toggle=0 shape_of_entropy=2 Aproj=3 Atarg=0
+
+arg2: gluon_field_toggle=0 shape_of_entropy=2 Aproj=2 Atarg=0
+arg3: gluon_field_toggle=0 shape_of_entropy=2 Aproj=3 Atarg=0
+
+arg2: gluon_field_toggle=1 shape_of_entropy=3 Aproj=2 Atarg=0
+arg3: gluon_field_toggle=1 shape_of_entropy=3 Aproj=3 Atarg=0
+
+arg7: gluon_field_toggle=1 shape_of_entropy=3 Aproj=3 Atarg=197 ecm=200
 
 [FileNames]
 
-f1: t_Intrinsic_Smooth
-f2: d_Intrinsic_Smooth
+f2: d_Intrinsic_5020GeV_Smooth
+f3: t_Intrinsic_5020GeV_Smooth
+
+f2: d_Intrinsic_5020GeV_Fluctuated
+f3: t_Intrinsic_5020GeV_Fluctuated
+
+f7: t_Au_200GeV_Fluctuated2
 
 [FolderParams]
 Destination: ~/Desktop/DataCollectionAfterPoisson
@@ -14,7 +25,7 @@ LocationOfPlotUtility: ~/Desktop/pythonPlotUtility-master
 
 [RunTimeParams]
 
-Instances: 6
+Instances: 8
 
 [Unused]
 
