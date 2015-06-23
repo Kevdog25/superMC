@@ -1,23 +1,13 @@
 [SuperMCArgs]
 
-
-arg2: gluon_field_toggle=0 shape_of_entropy=2 Aproj=2 Atarg=0
-arg3: gluon_field_toggle=0 shape_of_entropy=2 Aproj=3 Atarg=0
-
-arg2: gluon_field_toggle=1 shape_of_entropy=3 Aproj=2 Atarg=0
-arg3: gluon_field_toggle=1 shape_of_entropy=3 Aproj=3 Atarg=0
-
-arg7: gluon_field_toggle=1 shape_of_entropy=3 Aproj=3 Atarg=197 ecm=200
+arg1: gluon_field_toggle=0 shape_of_entropy=2 Aproj=1 Atarg=0 ecm=200 bmax=0
+arg2: gluon_field_toggle=0 shape_of_entropy=2 Aproj=1 Atarg=0 ecm=5020 cc_fluctuation_Gamma_theta=0.75 bmax=0
 
 [FileNames]
 
-f2: d_Intrinsic_5020GeV_Smooth
-f3: t_Intrinsic_5020GeV_Smooth
+f1: p_Intrinsic_Smooth
+f2: p_Intrinsic_5020GeV_Smooth
 
-f2: d_Intrinsic_5020GeV_Fluctuated
-f3: t_Intrinsic_5020GeV_Fluctuated
-
-f7: t_Au_200GeV_Fluctuated2
 
 [FolderParams]
 Destination: ~/Desktop/DataCollectionAfterPoisson

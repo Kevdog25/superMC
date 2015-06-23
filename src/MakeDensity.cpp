@@ -1884,6 +1884,9 @@ void MakeDensity::generateEccTable(int nevent)
     cout << "Projectile is missing. Dumping target entropy." << endl;
   if(targ->getAtomic() == 0)
     cout << "Target is missing. Dumping projectile entropy." << endl;
+  // Time things to give an eta.
+  Stopwatch swK;
+  double de_dt;
   while (event<=nevent)
   {
     int tries = 0;
@@ -1940,9 +1943,17 @@ void MakeDensity::generateEccTable(int nevent)
     mc->deleteNucleus();
     if(cutdSdypassFlag)
     {
-      if(event % 200 == 0)
-        cout << "processing event: " << event << endl;
       event++;
+      if(event % 200 == 0){
+        swK.toc();
+        de_dt = 200.0/swK.takeTime();
+        int mins = (int)((nevent-event)/de_dt)/60;
+        int secs = (int)((nevent-event)/de_dt) % 60;
+        cout << "processing event: " << event << ". ";
+        cout << "eta - " << mins << "m" << secs << "s. ";
+        cout << "speed - " << de_dt << "e/s" << endl;
+        swK.tic();
+      }
     }
   } // <-> while (event<=nevent)
 
