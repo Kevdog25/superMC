@@ -7,4 +7,16 @@
         <activeConfTypeElem>0</activeConfTypeElem>
         <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.h</file>
+            <file>file:/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.h</file>
+            <file>file:/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp</file>
+            <file>file:/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Participant.h</file>
+            <file>file:/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp</file>
+            <file>file:/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.h</file>
+            <file>file:/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp</file>
+        </group>
+    </open-files>
 </project-private>

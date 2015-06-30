@@ -7,17 +7,23 @@
 #include "GaussianDistribution.h"
 using namespace std;
 
-Particle::Particle(double x0, double y0, double z0)
+Particle::Particle(double x0, double y0, double z0,GaussianDistribution* dist)
 {
    x = x0; 
    y = y0; 
    z = z0;
-   numberOfCollision=0;
-   
-   QuarkGen = false;
-   flucfactors[0] = 1;
-   flucfactors[1] = 1;
-   flucfactors[2] = 1;
+   gaussDist = dist;
+   numberOfCollision = 0;
+}
+
+// Initialize the particle from a 
+Particle::Particle(Particle* inPart)
+{
+    x = inPart->getX();
+    y = inPart->getY();
+    z = inPart->getZ();
+    gaussDist = inPart.getGaussDist();
+    numberOfCollision = 0;
 }
 
 Particle::~Particle()
@@ -40,28 +46,17 @@ double Particle::getInternalStructDensity(double xg, double yg, double quarkWidt
    return dens;
 }
 
-void Particle::getQuarkPos(double Q[][3], GaussianDistribution *gaussDist)
+void Particle::generateQuarkPosition()
 {
    double x, y;
 
-   int i=0;
-   while(i<3)
+  
+   for(int i = 0; i < 3; i++)
    {
      x = gaussDist->rand();
      y = gaussDist->rand();
 
-     Q[i][0] = x;
-     Q[i][1] = y;
-     
-     i++;
+     ValenceQuarks[i][0] = x;
+     ValenceQuarks[i][1] = y;
    }
-
-   QuarkGen = true;
-}
-
-void Particle::setfluctfactorQuarks(double f1, double f2, double f3)
-{
-   flucfactors[0] = f1;
-   flucfactors[1] = f2;
-   flucfactors[2] = f3;
 }

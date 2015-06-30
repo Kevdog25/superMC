@@ -6,20 +6,6 @@
       </df>
       <df name="centrality_cut_tables">
       </df>
-      <df name="CMakeFiles">
-        <df name="CMakeTmp">
-          <df name="CMakeFiles">
-            <df name="cmTryCompileExec.dir">
-            </df>
-          </df>
-        </df>
-        <df name="CompilerIdC">
-          <in>CMakeCCompilerId.c</in>
-        </df>
-        <df name="CompilerIdCXX">
-          <in>CMakeCXXCompilerId.cpp</in>
-        </df>
-      </df>
       <df name="data">
       </df>
       <df name="old">

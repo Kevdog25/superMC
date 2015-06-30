@@ -12,7 +12,7 @@ IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "")
+    SET(CMAKE_INSTALL_CONFIG_NAME "Debug")
   ENDIF(BUILD_TYPE)
   MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
@@ -33,20 +33,30 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/superMC.e" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/superMC.e")
+  IF(EXISTS "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e")
     FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/superMC.e"
+         FILE "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e"
          RPATH "")
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/superMC.e")
-FILE(INSTALL DESTINATION "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master" TYPE EXECUTABLE FILES "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e")
-  IF(EXISTS "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/superMC.e" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/superMC.e")
+   "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e")
+FILE(INSTALL DESTINATION "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src" TYPE EXECUTABLE FILES "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e")
+  IF(EXISTS "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/superMC.e")
+      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/superMC.e")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
+IF(CMAKE_INSTALL_COMPONENT)
+  SET(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+ELSE(CMAKE_INSTALL_COMPONENT)
+  SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
+ENDIF(CMAKE_INSTALL_COMPONENT)
+
+FILE(WRITE "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/${CMAKE_INSTALL_MANIFEST}" "")
+FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
+  FILE(APPEND "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+ENDFOREACH(file)

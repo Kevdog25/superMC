@@ -387,8 +387,8 @@ int MCnucl::getBinaryCollision()
   Npart1=0;
   Npart2=0;
   for(int i=0;i<npart;i++) {
-    if(participant[i]->isNucl() == 1) Npart1++;
-    if(participant[i]->isNucl() == 2) Npart2++;
+    if(participant[i]->getNucl() == 1) Npart1++;
+    if(participant[i]->getNucl() == 2) Npart2++;
   }
   if(npart != Npart1+Npart2) {
     cout << " something is wrong with # of participants " << endl;
@@ -497,6 +497,7 @@ int MCnucl::hit(double b)
 int MCnucl::CentralityCut()
 {
   int Nptot = Npart1 + Npart2;
+
   if (Nptot<=NpartMax && Nptot>NpartMin) return 1;
   return 0;
 }
@@ -557,11 +558,11 @@ void MCnucl::getTA2()
            if (shape_of_nucleons==1) // "Checker" nucleons:
            {
              if(dc>dsq) continue;
-             if(participant[ipart]->isNucl() == 1)
+             if(participant[ipart]->getNucl() == 1)
              {
                  TA1[ix][iy] += areai;
              } 
-             else if(participant[ipart]->isNucl() == 2)
+             else if(participant[ipart]->getNucl() == 2)
              {
                  TA2[ix][iy] += areai;
              }
@@ -576,11 +577,11 @@ void MCnucl::getTA2()
              // skip distant nucleons, speeds things up; one may need to relax
              if (dc>dc_sq_max_gaussian) continue;
              double density = GaussianNucleonsCal::get2DHeightFromWidth(nucleon_width)*exp(-dc/(2.*nucleon_width*nucleon_width)); // width given from GaussianNucleonsCal class, height from the requirement that density should normalized to 1
-             if(participant[ipart]->isNucl() == 1)
+             if(participant[ipart]->getNucl() == 1)
              {
                  TA1[ix][iy] += density;
              }
-             else if(participant[ipart]->isNucl() == 2)
+             else if(participant[ipart]->getNucl() == 2)
              {
                  TA2[ix][iy] += density;
              }
@@ -1210,7 +1211,7 @@ void MCnucl::dumpBinaryTable(char filename[])
 {
   double x,y;
   ofstream of;
-
+  /*
   of.open(filename, std::ios_base::app);
   for (int idx=0; idx<binaryCollision.size(); idx++)
   {
@@ -1221,20 +1222,22 @@ void MCnucl::dumpBinaryTable(char filename[])
         << endl;
   }
   of.close();
+  */
   
-  /* for debug
-  of.open("data/wounded.data");
+  of.open("data/wounded.data", std::ios_base::app);
   for (int idx=0; idx<participant.size(); idx++)
   {
     x = participant[idx]->getX();
     y = participant[idx]->getY();
     of  << setprecision(3) << setw(10) << x
         << setprecision(3) << setw(10) << y
+        << setprecision(3) << setw(10) << participant[idx]->getfluctfactor()
         << endl;
   }
+  of << endl;
   of.close();
 
-  of.open("data/nucl1.data");
+  of.open("data/nucl1.data", std::ios_base::app);
   for (int idx=0; idx<nucl1.size(); idx++)
   {
     x = nucl1[idx]->getX();
@@ -1243,9 +1246,28 @@ void MCnucl::dumpBinaryTable(char filename[])
         << setprecision(3) << setw(10) << y
         << endl;
   }
+  of << endl;
   of.close();
 
-  of.open("data/nucl2.data");
+  if(shape_of_entropy == 3)
+  {
+    of.open("data/nucl1Quarks.data", std::ios_base::app);
+    for (int idx = 0; idx < nucl1.size(); idx++)
+    {
+      for (int idy = 0; idy < 3; idy++)
+      {
+        x = nucl1[idx]->ValenceQuarks[idy][0] + nucl1[idx]->getX();
+        y = nucl1[idx]->ValenceQuarks[idy][1] + nucl1[idx]->getY();
+        of  << setprecision(3) << setw(10) << x
+            << setprecision(3) << setw(10) << y
+            << endl;
+      }
+    }
+  	of << endl;
+    of.close();
+  }
+
+  of.open("data/nucl2.data", std::ios_base::app);
   for (int idx=0; idx<nucl2.size(); idx++)
   {
     x = nucl2[idx]->getX();
@@ -1254,8 +1276,8 @@ void MCnucl::dumpBinaryTable(char filename[])
         << setprecision(3) << setw(10) << y
         << endl;
   }
+  of << endl;
   of.close();
-  */
 }
 
 void MCnucl::dumpparticipantTable(char filename[])

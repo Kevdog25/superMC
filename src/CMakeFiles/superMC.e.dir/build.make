@@ -32,666 +32,666 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master
+CMAKE_SOURCE_DIR = /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master
+CMAKE_BINARY_DIR = /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src
 
 # Include any dependencies generated for this target.
-include src/CMakeFiles/superMC.e.dir/depend.make
+include CMakeFiles/superMC.e.dir/depend.make
 
 # Include the progress variables for this target.
-include src/CMakeFiles/superMC.e.dir/progress.make
+include CMakeFiles/superMC.e.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include src/CMakeFiles/superMC.e.dir/flags.make
+include CMakeFiles/superMC.e.dir/flags.make
 
-src/CMakeFiles/superMC.e.dir/main.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/main.cpp.o: src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/main.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/main.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp
+CMakeFiles/superMC.e.dir/main.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/main.o: main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/main.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/main.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp
 
-src/CMakeFiles/superMC.e.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/main.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp > CMakeFiles/superMC.e.dir/main.cpp.i
+CMakeFiles/superMC.e.dir/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/main.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp > CMakeFiles/superMC.e.dir/main.i
 
-src/CMakeFiles/superMC.e.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/main.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp -o CMakeFiles/superMC.e.dir/main.cpp.s
+CMakeFiles/superMC.e.dir/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/main.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/main.cpp -o CMakeFiles/superMC.e.dir/main.s
 
-src/CMakeFiles/superMC.e.dir/main.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/main.cpp.o.requires
+CMakeFiles/superMC.e.dir/main.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/main.o.requires
 
-src/CMakeFiles/superMC.e.dir/main.cpp.o.provides: src/CMakeFiles/superMC.e.dir/main.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/main.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/main.cpp.o.provides
+CMakeFiles/superMC.e.dir/main.o.provides: CMakeFiles/superMC.e.dir/main.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/main.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/main.o.provides
 
-src/CMakeFiles/superMC.e.dir/main.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/main.cpp.o
+CMakeFiles/superMC.e.dir/main.o.provides.build: CMakeFiles/superMC.e.dir/main.o
 
-src/CMakeFiles/superMC.e.dir/Bases.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/Bases.cpp.o: src/Bases.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/Bases.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Bases.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp
+CMakeFiles/superMC.e.dir/Bases.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/Bases.o: Bases.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/Bases.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Bases.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp
 
-src/CMakeFiles/superMC.e.dir/Bases.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Bases.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp > CMakeFiles/superMC.e.dir/Bases.cpp.i
+CMakeFiles/superMC.e.dir/Bases.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Bases.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp > CMakeFiles/superMC.e.dir/Bases.i
 
-src/CMakeFiles/superMC.e.dir/Bases.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Bases.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp -o CMakeFiles/superMC.e.dir/Bases.cpp.s
+CMakeFiles/superMC.e.dir/Bases.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Bases.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Bases.cpp -o CMakeFiles/superMC.e.dir/Bases.s
 
-src/CMakeFiles/superMC.e.dir/Bases.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/Bases.cpp.o.requires
+CMakeFiles/superMC.e.dir/Bases.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/Bases.o.requires
 
-src/CMakeFiles/superMC.e.dir/Bases.cpp.o.provides: src/CMakeFiles/superMC.e.dir/Bases.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/Bases.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/Bases.cpp.o.provides
+CMakeFiles/superMC.e.dir/Bases.o.provides: CMakeFiles/superMC.e.dir/Bases.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/Bases.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/Bases.o.provides
 
-src/CMakeFiles/superMC.e.dir/Bases.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/Bases.cpp.o
+CMakeFiles/superMC.e.dir/Bases.o.provides.build: CMakeFiles/superMC.e.dir/Bases.o
 
-src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o: src/MCnucl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/MCnucl.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp
+CMakeFiles/superMC.e.dir/MCnucl.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/MCnucl.o: MCnucl.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/MCnucl.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/MCnucl.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp
 
-src/CMakeFiles/superMC.e.dir/MCnucl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/MCnucl.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp > CMakeFiles/superMC.e.dir/MCnucl.cpp.i
+CMakeFiles/superMC.e.dir/MCnucl.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/MCnucl.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp > CMakeFiles/superMC.e.dir/MCnucl.i
 
-src/CMakeFiles/superMC.e.dir/MCnucl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/MCnucl.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp -o CMakeFiles/superMC.e.dir/MCnucl.cpp.s
+CMakeFiles/superMC.e.dir/MCnucl.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/MCnucl.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MCnucl.cpp -o CMakeFiles/superMC.e.dir/MCnucl.s
 
-src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.requires
+CMakeFiles/superMC.e.dir/MCnucl.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/MCnucl.o.requires
 
-src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.provides: src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.provides
+CMakeFiles/superMC.e.dir/MCnucl.o.provides: CMakeFiles/superMC.e.dir/MCnucl.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/MCnucl.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/MCnucl.o.provides
 
-src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o
+CMakeFiles/superMC.e.dir/MCnucl.o.provides.build: CMakeFiles/superMC.e.dir/MCnucl.o
 
-src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o: src/GlueDensity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/GlueDensity.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp
+CMakeFiles/superMC.e.dir/GlueDensity.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/GlueDensity.o: GlueDensity.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/GlueDensity.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/GlueDensity.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp
 
-src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/GlueDensity.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp > CMakeFiles/superMC.e.dir/GlueDensity.cpp.i
+CMakeFiles/superMC.e.dir/GlueDensity.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/GlueDensity.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp > CMakeFiles/superMC.e.dir/GlueDensity.i
 
-src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/GlueDensity.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp -o CMakeFiles/superMC.e.dir/GlueDensity.cpp.s
+CMakeFiles/superMC.e.dir/GlueDensity.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/GlueDensity.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GlueDensity.cpp -o CMakeFiles/superMC.e.dir/GlueDensity.s
 
-src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.requires
+CMakeFiles/superMC.e.dir/GlueDensity.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/GlueDensity.o.requires
 
-src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.provides: src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.provides
+CMakeFiles/superMC.e.dir/GlueDensity.o.provides: CMakeFiles/superMC.e.dir/GlueDensity.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/GlueDensity.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/GlueDensity.o.provides
 
-src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o
+CMakeFiles/superMC.e.dir/GlueDensity.o.provides.build: CMakeFiles/superMC.e.dir/GlueDensity.o
 
-src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o: src/MakeDensity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/MakeDensity.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp
+CMakeFiles/superMC.e.dir/MakeDensity.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/MakeDensity.o: MakeDensity.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/MakeDensity.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/MakeDensity.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp
 
-src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/MakeDensity.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp > CMakeFiles/superMC.e.dir/MakeDensity.cpp.i
+CMakeFiles/superMC.e.dir/MakeDensity.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/MakeDensity.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp > CMakeFiles/superMC.e.dir/MakeDensity.i
 
-src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/MakeDensity.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp -o CMakeFiles/superMC.e.dir/MakeDensity.cpp.s
+CMakeFiles/superMC.e.dir/MakeDensity.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/MakeDensity.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MakeDensity.cpp -o CMakeFiles/superMC.e.dir/MakeDensity.s
 
-src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.requires
+CMakeFiles/superMC.e.dir/MakeDensity.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/MakeDensity.o.requires
 
-src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.provides: src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.provides
+CMakeFiles/superMC.e.dir/MakeDensity.o.provides: CMakeFiles/superMC.e.dir/MakeDensity.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/MakeDensity.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/MakeDensity.o.provides
 
-src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o
+CMakeFiles/superMC.e.dir/MakeDensity.o.provides.build: CMakeFiles/superMC.e.dir/MakeDensity.o
 
-src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o: src/KLNModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/KLNModel.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp
+CMakeFiles/superMC.e.dir/KLNModel.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/KLNModel.o: KLNModel.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/KLNModel.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/KLNModel.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp
 
-src/CMakeFiles/superMC.e.dir/KLNModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/KLNModel.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp > CMakeFiles/superMC.e.dir/KLNModel.cpp.i
+CMakeFiles/superMC.e.dir/KLNModel.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/KLNModel.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp > CMakeFiles/superMC.e.dir/KLNModel.i
 
-src/CMakeFiles/superMC.e.dir/KLNModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/KLNModel.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp -o CMakeFiles/superMC.e.dir/KLNModel.cpp.s
+CMakeFiles/superMC.e.dir/KLNModel.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/KLNModel.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/KLNModel.cpp -o CMakeFiles/superMC.e.dir/KLNModel.s
 
-src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.requires
+CMakeFiles/superMC.e.dir/KLNModel.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/KLNModel.o.requires
 
-src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.provides: src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.provides
+CMakeFiles/superMC.e.dir/KLNModel.o.provides: CMakeFiles/superMC.e.dir/KLNModel.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/KLNModel.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/KLNModel.o.provides
 
-src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o
+CMakeFiles/superMC.e.dir/KLNModel.o.provides.build: CMakeFiles/superMC.e.dir/KLNModel.o
 
-src/CMakeFiles/superMC.e.dir/OverLap.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/OverLap.cpp.o: src/OverLap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/OverLap.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/OverLap.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp
+CMakeFiles/superMC.e.dir/OverLap.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/OverLap.o: OverLap.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/OverLap.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/OverLap.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp
 
-src/CMakeFiles/superMC.e.dir/OverLap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/OverLap.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp > CMakeFiles/superMC.e.dir/OverLap.cpp.i
+CMakeFiles/superMC.e.dir/OverLap.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/OverLap.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp > CMakeFiles/superMC.e.dir/OverLap.i
 
-src/CMakeFiles/superMC.e.dir/OverLap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/OverLap.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp -o CMakeFiles/superMC.e.dir/OverLap.cpp.s
+CMakeFiles/superMC.e.dir/OverLap.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/OverLap.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/OverLap.cpp -o CMakeFiles/superMC.e.dir/OverLap.s
 
-src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.requires
+CMakeFiles/superMC.e.dir/OverLap.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/OverLap.o.requires
 
-src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.provides: src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.provides
+CMakeFiles/superMC.e.dir/OverLap.o.provides: CMakeFiles/superMC.e.dir/OverLap.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/OverLap.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/OverLap.o.provides
 
-src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/OverLap.cpp.o
+CMakeFiles/superMC.e.dir/OverLap.o.provides.build: CMakeFiles/superMC.e.dir/OverLap.o
 
-src/CMakeFiles/superMC.e.dir/Largex.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/Largex.cpp.o: src/Largex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/Largex.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Largex.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp
+CMakeFiles/superMC.e.dir/Largex.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/Largex.o: Largex.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/Largex.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Largex.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp
 
-src/CMakeFiles/superMC.e.dir/Largex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Largex.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp > CMakeFiles/superMC.e.dir/Largex.cpp.i
+CMakeFiles/superMC.e.dir/Largex.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Largex.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp > CMakeFiles/superMC.e.dir/Largex.i
 
-src/CMakeFiles/superMC.e.dir/Largex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Largex.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp -o CMakeFiles/superMC.e.dir/Largex.cpp.s
+CMakeFiles/superMC.e.dir/Largex.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Largex.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Largex.cpp -o CMakeFiles/superMC.e.dir/Largex.s
 
-src/CMakeFiles/superMC.e.dir/Largex.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/Largex.cpp.o.requires
+CMakeFiles/superMC.e.dir/Largex.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/Largex.o.requires
 
-src/CMakeFiles/superMC.e.dir/Largex.cpp.o.provides: src/CMakeFiles/superMC.e.dir/Largex.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/Largex.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/Largex.cpp.o.provides
+CMakeFiles/superMC.e.dir/Largex.o.provides: CMakeFiles/superMC.e.dir/Largex.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/Largex.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/Largex.o.provides
 
-src/CMakeFiles/superMC.e.dir/Largex.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/Largex.cpp.o
+CMakeFiles/superMC.e.dir/Largex.o.provides.build: CMakeFiles/superMC.e.dir/Largex.o
 
-src/CMakeFiles/superMC.e.dir/Regge96.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/Regge96.cpp.o: src/Regge96.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/Regge96.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Regge96.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp
+CMakeFiles/superMC.e.dir/Regge96.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/Regge96.o: Regge96.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/Regge96.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Regge96.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp
 
-src/CMakeFiles/superMC.e.dir/Regge96.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Regge96.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp > CMakeFiles/superMC.e.dir/Regge96.cpp.i
+CMakeFiles/superMC.e.dir/Regge96.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Regge96.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp > CMakeFiles/superMC.e.dir/Regge96.i
 
-src/CMakeFiles/superMC.e.dir/Regge96.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Regge96.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp -o CMakeFiles/superMC.e.dir/Regge96.cpp.s
+CMakeFiles/superMC.e.dir/Regge96.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Regge96.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Regge96.cpp -o CMakeFiles/superMC.e.dir/Regge96.s
 
-src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.requires
+CMakeFiles/superMC.e.dir/Regge96.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/Regge96.o.requires
 
-src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.provides: src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.provides
+CMakeFiles/superMC.e.dir/Regge96.o.provides: CMakeFiles/superMC.e.dir/Regge96.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/Regge96.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/Regge96.o.provides
 
-src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/Regge96.cpp.o
+CMakeFiles/superMC.e.dir/Regge96.o.provides.build: CMakeFiles/superMC.e.dir/Regge96.o
 
-src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o: src/rcBKfunc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp
+CMakeFiles/superMC.e.dir/rcBKfunc.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/rcBKfunc.o: rcBKfunc.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/rcBKfunc.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/rcBKfunc.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp
 
-src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/rcBKfunc.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp > CMakeFiles/superMC.e.dir/rcBKfunc.cpp.i
+CMakeFiles/superMC.e.dir/rcBKfunc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/rcBKfunc.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp > CMakeFiles/superMC.e.dir/rcBKfunc.i
 
-src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/rcBKfunc.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp -o CMakeFiles/superMC.e.dir/rcBKfunc.cpp.s
+CMakeFiles/superMC.e.dir/rcBKfunc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/rcBKfunc.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/rcBKfunc.cpp -o CMakeFiles/superMC.e.dir/rcBKfunc.s
 
-src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.requires
+CMakeFiles/superMC.e.dir/rcBKfunc.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/rcBKfunc.o.requires
 
-src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.provides: src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.provides
+CMakeFiles/superMC.e.dir/rcBKfunc.o.provides: CMakeFiles/superMC.e.dir/rcBKfunc.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/rcBKfunc.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/rcBKfunc.o.provides
 
-src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o
+CMakeFiles/superMC.e.dir/rcBKfunc.o.provides.build: CMakeFiles/superMC.e.dir/rcBKfunc.o
 
-src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o: src/MathBasics.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/MathBasics.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp
+CMakeFiles/superMC.e.dir/MathBasics.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/MathBasics.o: MathBasics.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/MathBasics.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/MathBasics.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp
 
-src/CMakeFiles/superMC.e.dir/MathBasics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/MathBasics.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp > CMakeFiles/superMC.e.dir/MathBasics.cpp.i
+CMakeFiles/superMC.e.dir/MathBasics.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/MathBasics.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp > CMakeFiles/superMC.e.dir/MathBasics.i
 
-src/CMakeFiles/superMC.e.dir/MathBasics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/MathBasics.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp -o CMakeFiles/superMC.e.dir/MathBasics.cpp.s
+CMakeFiles/superMC.e.dir/MathBasics.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/MathBasics.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/MathBasics.cpp -o CMakeFiles/superMC.e.dir/MathBasics.s
 
-src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.requires
+CMakeFiles/superMC.e.dir/MathBasics.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/MathBasics.o.requires
 
-src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.provides: src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.provides
+CMakeFiles/superMC.e.dir/MathBasics.o.provides: CMakeFiles/superMC.e.dir/MathBasics.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/MathBasics.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/MathBasics.o.provides
 
-src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o
+CMakeFiles/superMC.e.dir/MathBasics.o.provides.build: CMakeFiles/superMC.e.dir/MathBasics.o
 
-src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o: src/ParameterReader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/ParameterReader.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp
+CMakeFiles/superMC.e.dir/ParameterReader.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/ParameterReader.o: ParameterReader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/ParameterReader.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/ParameterReader.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp
 
-src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/ParameterReader.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp > CMakeFiles/superMC.e.dir/ParameterReader.cpp.i
+CMakeFiles/superMC.e.dir/ParameterReader.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/ParameterReader.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp > CMakeFiles/superMC.e.dir/ParameterReader.i
 
-src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/ParameterReader.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp -o CMakeFiles/superMC.e.dir/ParameterReader.cpp.s
+CMakeFiles/superMC.e.dir/ParameterReader.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/ParameterReader.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParameterReader.cpp -o CMakeFiles/superMC.e.dir/ParameterReader.s
 
-src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.requires
+CMakeFiles/superMC.e.dir/ParameterReader.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/ParameterReader.o.requires
 
-src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.provides: src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.provides
+CMakeFiles/superMC.e.dir/ParameterReader.o.provides: CMakeFiles/superMC.e.dir/ParameterReader.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/ParameterReader.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/ParameterReader.o.provides
 
-src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o
+CMakeFiles/superMC.e.dir/ParameterReader.o.provides.build: CMakeFiles/superMC.e.dir/ParameterReader.o
 
-src/CMakeFiles/superMC.e.dir/arsenal.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/arsenal.cpp.o: src/arsenal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/arsenal.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/arsenal.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp
+CMakeFiles/superMC.e.dir/arsenal.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/arsenal.o: arsenal.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/arsenal.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/arsenal.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp
 
-src/CMakeFiles/superMC.e.dir/arsenal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/arsenal.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp > CMakeFiles/superMC.e.dir/arsenal.cpp.i
+CMakeFiles/superMC.e.dir/arsenal.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/arsenal.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp > CMakeFiles/superMC.e.dir/arsenal.i
 
-src/CMakeFiles/superMC.e.dir/arsenal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/arsenal.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp -o CMakeFiles/superMC.e.dir/arsenal.cpp.s
+CMakeFiles/superMC.e.dir/arsenal.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/arsenal.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/arsenal.cpp -o CMakeFiles/superMC.e.dir/arsenal.s
 
-src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.requires
+CMakeFiles/superMC.e.dir/arsenal.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/arsenal.o.requires
 
-src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.provides: src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.provides
+CMakeFiles/superMC.e.dir/arsenal.o.provides: CMakeFiles/superMC.e.dir/arsenal.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/arsenal.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/arsenal.o.provides
 
-src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/arsenal.cpp.o
+CMakeFiles/superMC.e.dir/arsenal.o.provides.build: CMakeFiles/superMC.e.dir/arsenal.o
 
-src/CMakeFiles/superMC.e.dir/EOS.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/EOS.cpp.o: src/EOS.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/EOS.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/EOS.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp
+CMakeFiles/superMC.e.dir/EOS.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/EOS.o: EOS.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/EOS.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/EOS.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp
 
-src/CMakeFiles/superMC.e.dir/EOS.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/EOS.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp > CMakeFiles/superMC.e.dir/EOS.cpp.i
+CMakeFiles/superMC.e.dir/EOS.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/EOS.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp > CMakeFiles/superMC.e.dir/EOS.i
 
-src/CMakeFiles/superMC.e.dir/EOS.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/EOS.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp -o CMakeFiles/superMC.e.dir/EOS.cpp.s
+CMakeFiles/superMC.e.dir/EOS.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/EOS.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/EOS.cpp -o CMakeFiles/superMC.e.dir/EOS.s
 
-src/CMakeFiles/superMC.e.dir/EOS.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/EOS.cpp.o.requires
+CMakeFiles/superMC.e.dir/EOS.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/EOS.o.requires
 
-src/CMakeFiles/superMC.e.dir/EOS.cpp.o.provides: src/CMakeFiles/superMC.e.dir/EOS.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/EOS.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/EOS.cpp.o.provides
+CMakeFiles/superMC.e.dir/EOS.o.provides: CMakeFiles/superMC.e.dir/EOS.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/EOS.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/EOS.o.provides
 
-src/CMakeFiles/superMC.e.dir/EOS.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/EOS.cpp.o
+CMakeFiles/superMC.e.dir/EOS.o.provides.build: CMakeFiles/superMC.e.dir/EOS.o
 
-src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o: src/GaussianNucleonsCal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp
+CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o: GaussianNucleonsCal.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp
 
-src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp > CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.i
+CMakeFiles/superMC.e.dir/GaussianNucleonsCal.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/GaussianNucleonsCal.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp > CMakeFiles/superMC.e.dir/GaussianNucleonsCal.i
 
-src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp -o CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.s
+CMakeFiles/superMC.e.dir/GaussianNucleonsCal.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/GaussianNucleonsCal.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianNucleonsCal.cpp -o CMakeFiles/superMC.e.dir/GaussianNucleonsCal.s
 
-src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.requires
+CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.requires
 
-src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.provides: src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.provides
+CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.provides: CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.provides
 
-src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o
+CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.provides.build: CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o
 
-src/CMakeFiles/superMC.e.dir/NBD.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/NBD.cpp.o: src/NBD.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/NBD.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/NBD.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp
+CMakeFiles/superMC.e.dir/NBD.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/NBD.o: NBD.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/NBD.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/NBD.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp
 
-src/CMakeFiles/superMC.e.dir/NBD.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/NBD.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp > CMakeFiles/superMC.e.dir/NBD.cpp.i
+CMakeFiles/superMC.e.dir/NBD.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/NBD.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp > CMakeFiles/superMC.e.dir/NBD.i
 
-src/CMakeFiles/superMC.e.dir/NBD.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/NBD.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp -o CMakeFiles/superMC.e.dir/NBD.cpp.s
+CMakeFiles/superMC.e.dir/NBD.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/NBD.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/NBD.cpp -o CMakeFiles/superMC.e.dir/NBD.s
 
-src/CMakeFiles/superMC.e.dir/NBD.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/NBD.cpp.o.requires
+CMakeFiles/superMC.e.dir/NBD.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/NBD.o.requires
 
-src/CMakeFiles/superMC.e.dir/NBD.cpp.o.provides: src/CMakeFiles/superMC.e.dir/NBD.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/NBD.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/NBD.cpp.o.provides
+CMakeFiles/superMC.e.dir/NBD.o.provides: CMakeFiles/superMC.e.dir/NBD.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/NBD.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/NBD.o.provides
 
-src/CMakeFiles/superMC.e.dir/NBD.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/NBD.cpp.o
+CMakeFiles/superMC.e.dir/NBD.o.provides.build: CMakeFiles/superMC.e.dir/NBD.o
 
-src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o: src/RandomVariable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/RandomVariable.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp
+CMakeFiles/superMC.e.dir/RandomVariable.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/RandomVariable.o: RandomVariable.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/RandomVariable.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/RandomVariable.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp
 
-src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/RandomVariable.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp > CMakeFiles/superMC.e.dir/RandomVariable.cpp.i
+CMakeFiles/superMC.e.dir/RandomVariable.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/RandomVariable.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp > CMakeFiles/superMC.e.dir/RandomVariable.i
 
-src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/RandomVariable.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp -o CMakeFiles/superMC.e.dir/RandomVariable.cpp.s
+CMakeFiles/superMC.e.dir/RandomVariable.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/RandomVariable.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/RandomVariable.cpp -o CMakeFiles/superMC.e.dir/RandomVariable.s
 
-src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.requires
+CMakeFiles/superMC.e.dir/RandomVariable.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/RandomVariable.o.requires
 
-src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.provides: src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.provides
+CMakeFiles/superMC.e.dir/RandomVariable.o.provides: CMakeFiles/superMC.e.dir/RandomVariable.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/RandomVariable.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/RandomVariable.o.provides
 
-src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o
+CMakeFiles/superMC.e.dir/RandomVariable.o.provides.build: CMakeFiles/superMC.e.dir/RandomVariable.o
 
-src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o: src/TableFunction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/TableFunction.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp
+CMakeFiles/superMC.e.dir/TableFunction.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/TableFunction.o: TableFunction.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/TableFunction.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/TableFunction.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp
 
-src/CMakeFiles/superMC.e.dir/TableFunction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/TableFunction.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp > CMakeFiles/superMC.e.dir/TableFunction.cpp.i
+CMakeFiles/superMC.e.dir/TableFunction.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/TableFunction.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp > CMakeFiles/superMC.e.dir/TableFunction.i
 
-src/CMakeFiles/superMC.e.dir/TableFunction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/TableFunction.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp -o CMakeFiles/superMC.e.dir/TableFunction.cpp.s
+CMakeFiles/superMC.e.dir/TableFunction.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/TableFunction.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/TableFunction.cpp -o CMakeFiles/superMC.e.dir/TableFunction.s
 
-src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.requires
+CMakeFiles/superMC.e.dir/TableFunction.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/TableFunction.o.requires
 
-src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.provides: src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.provides
+CMakeFiles/superMC.e.dir/TableFunction.o.provides: CMakeFiles/superMC.e.dir/TableFunction.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/TableFunction.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/TableFunction.o.provides
 
-src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o
+CMakeFiles/superMC.e.dir/TableFunction.o.provides.build: CMakeFiles/superMC.e.dir/TableFunction.o
 
-src/CMakeFiles/superMC.e.dir/Table.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/Table.cpp.o: src/Table.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/Table.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Table.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp
+CMakeFiles/superMC.e.dir/Table.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/Table.o: Table.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/Table.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Table.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp
 
-src/CMakeFiles/superMC.e.dir/Table.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Table.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp > CMakeFiles/superMC.e.dir/Table.cpp.i
+CMakeFiles/superMC.e.dir/Table.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Table.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp > CMakeFiles/superMC.e.dir/Table.i
 
-src/CMakeFiles/superMC.e.dir/Table.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Table.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp -o CMakeFiles/superMC.e.dir/Table.cpp.s
+CMakeFiles/superMC.e.dir/Table.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Table.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Table.cpp -o CMakeFiles/superMC.e.dir/Table.s
 
-src/CMakeFiles/superMC.e.dir/Table.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/Table.cpp.o.requires
+CMakeFiles/superMC.e.dir/Table.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/Table.o.requires
 
-src/CMakeFiles/superMC.e.dir/Table.cpp.o.provides: src/CMakeFiles/superMC.e.dir/Table.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/Table.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/Table.cpp.o.provides
+CMakeFiles/superMC.e.dir/Table.o.provides: CMakeFiles/superMC.e.dir/Table.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/Table.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/Table.o.provides
 
-src/CMakeFiles/superMC.e.dir/Table.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/Table.cpp.o
+CMakeFiles/superMC.e.dir/Table.o.provides.build: CMakeFiles/superMC.e.dir/Table.o
 
-src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o: src/HulthenFunc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp
+CMakeFiles/superMC.e.dir/HulthenFunc.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/HulthenFunc.o: HulthenFunc.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/HulthenFunc.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/HulthenFunc.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp
 
-src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/HulthenFunc.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp > CMakeFiles/superMC.e.dir/HulthenFunc.cpp.i
+CMakeFiles/superMC.e.dir/HulthenFunc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/HulthenFunc.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp > CMakeFiles/superMC.e.dir/HulthenFunc.i
 
-src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/HulthenFunc.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp -o CMakeFiles/superMC.e.dir/HulthenFunc.cpp.s
+CMakeFiles/superMC.e.dir/HulthenFunc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/HulthenFunc.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/HulthenFunc.cpp -o CMakeFiles/superMC.e.dir/HulthenFunc.s
 
-src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.requires
+CMakeFiles/superMC.e.dir/HulthenFunc.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/HulthenFunc.o.requires
 
-src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.provides: src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.provides
+CMakeFiles/superMC.e.dir/HulthenFunc.o.provides: CMakeFiles/superMC.e.dir/HulthenFunc.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/HulthenFunc.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/HulthenFunc.o.provides
 
-src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o
+CMakeFiles/superMC.e.dir/HulthenFunc.o.provides.build: CMakeFiles/superMC.e.dir/HulthenFunc.o
 
-src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o: src/GaussianDistribution.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp
+CMakeFiles/superMC.e.dir/GaussianDistribution.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/GaussianDistribution.o: GaussianDistribution.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/GaussianDistribution.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/GaussianDistribution.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp
 
-src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp > CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.i
+CMakeFiles/superMC.e.dir/GaussianDistribution.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/GaussianDistribution.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp > CMakeFiles/superMC.e.dir/GaussianDistribution.i
 
-src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp -o CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.s
+CMakeFiles/superMC.e.dir/GaussianDistribution.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/GaussianDistribution.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/GaussianDistribution.cpp -o CMakeFiles/superMC.e.dir/GaussianDistribution.s
 
-src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.requires
+CMakeFiles/superMC.e.dir/GaussianDistribution.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/GaussianDistribution.o.requires
 
-src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.provides: src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.provides
+CMakeFiles/superMC.e.dir/GaussianDistribution.o.provides: CMakeFiles/superMC.e.dir/GaussianDistribution.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/GaussianDistribution.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/GaussianDistribution.o.provides
 
-src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o
+CMakeFiles/superMC.e.dir/GaussianDistribution.o.provides.build: CMakeFiles/superMC.e.dir/GaussianDistribution.o
 
-src/CMakeFiles/superMC.e.dir/Particle.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/Particle.cpp.o: src/Particle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_22)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/Particle.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Particle.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp
+CMakeFiles/superMC.e.dir/Particle.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/Particle.o: Particle.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/Particle.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/Particle.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp
 
-src/CMakeFiles/superMC.e.dir/Particle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Particle.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp > CMakeFiles/superMC.e.dir/Particle.cpp.i
+CMakeFiles/superMC.e.dir/Particle.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/Particle.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp > CMakeFiles/superMC.e.dir/Particle.i
 
-src/CMakeFiles/superMC.e.dir/Particle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Particle.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp -o CMakeFiles/superMC.e.dir/Particle.cpp.s
+CMakeFiles/superMC.e.dir/Particle.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/Particle.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/Particle.cpp -o CMakeFiles/superMC.e.dir/Particle.s
 
-src/CMakeFiles/superMC.e.dir/Particle.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/Particle.cpp.o.requires
+CMakeFiles/superMC.e.dir/Particle.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/Particle.o.requires
 
-src/CMakeFiles/superMC.e.dir/Particle.cpp.o.provides: src/CMakeFiles/superMC.e.dir/Particle.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/Particle.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/Particle.cpp.o.provides
+CMakeFiles/superMC.e.dir/Particle.o.provides: CMakeFiles/superMC.e.dir/Particle.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/Particle.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/Particle.o.provides
 
-src/CMakeFiles/superMC.e.dir/Particle.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/Particle.cpp.o
+CMakeFiles/superMC.e.dir/Particle.o.provides.build: CMakeFiles/superMC.e.dir/Particle.o
 
-src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o: src/ParticipantRHIC.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp
+CMakeFiles/superMC.e.dir/ParticipantRHIC.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/ParticipantRHIC.o: ParticipantRHIC.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/ParticipantRHIC.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/ParticipantRHIC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp
 
-src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp > CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.i
+CMakeFiles/superMC.e.dir/ParticipantRHIC.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/ParticipantRHIC.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp > CMakeFiles/superMC.e.dir/ParticipantRHIC.i
 
-src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp -o CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.s
+CMakeFiles/superMC.e.dir/ParticipantRHIC.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/ParticipantRHIC.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp -o CMakeFiles/superMC.e.dir/ParticipantRHIC.s
 
-src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.requires
+CMakeFiles/superMC.e.dir/ParticipantRHIC.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/ParticipantRHIC.o.requires
 
-src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.provides: src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.provides
+CMakeFiles/superMC.e.dir/ParticipantRHIC.o.provides: CMakeFiles/superMC.e.dir/ParticipantRHIC.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/ParticipantRHIC.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/ParticipantRHIC.o.provides
 
-src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o
+CMakeFiles/superMC.e.dir/ParticipantRHIC.o.provides.build: CMakeFiles/superMC.e.dir/ParticipantRHIC.o
 
-src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o: src/CMakeFiles/superMC.e.dir/flags.make
-src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o: src/ParticipantLHC.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp
+CMakeFiles/superMC.e.dir/ParticipantLHC.o: CMakeFiles/superMC.e.dir/flags.make
+CMakeFiles/superMC.e.dir/ParticipantLHC.o: ParticipantLHC.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/superMC.e.dir/ParticipantLHC.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/superMC.e.dir/ParticipantLHC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp
 
-src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.i"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp > CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.i
+CMakeFiles/superMC.e.dir/ParticipantLHC.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/superMC.e.dir/ParticipantLHC.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp > CMakeFiles/superMC.e.dir/ParticipantLHC.i
 
-src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.s"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp -o CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.s
+CMakeFiles/superMC.e.dir/ParticipantLHC.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/superMC.e.dir/ParticipantLHC.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp -o CMakeFiles/superMC.e.dir/ParticipantLHC.s
 
-src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.requires:
-.PHONY : src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.requires
+CMakeFiles/superMC.e.dir/ParticipantLHC.o.requires:
+.PHONY : CMakeFiles/superMC.e.dir/ParticipantLHC.o.requires
 
-src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.provides: src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/superMC.e.dir/build.make src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.provides.build
-.PHONY : src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.provides
+CMakeFiles/superMC.e.dir/ParticipantLHC.o.provides: CMakeFiles/superMC.e.dir/ParticipantLHC.o.requires
+	$(MAKE) -f CMakeFiles/superMC.e.dir/build.make CMakeFiles/superMC.e.dir/ParticipantLHC.o.provides.build
+.PHONY : CMakeFiles/superMC.e.dir/ParticipantLHC.o.provides
 
-src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.provides.build: src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o
+CMakeFiles/superMC.e.dir/ParticipantLHC.o.provides.build: CMakeFiles/superMC.e.dir/ParticipantLHC.o
 
 # Object files for target superMC.e
 superMC_e_OBJECTS = \
-"CMakeFiles/superMC.e.dir/main.cpp.o" \
-"CMakeFiles/superMC.e.dir/Bases.cpp.o" \
-"CMakeFiles/superMC.e.dir/MCnucl.cpp.o" \
-"CMakeFiles/superMC.e.dir/GlueDensity.cpp.o" \
-"CMakeFiles/superMC.e.dir/MakeDensity.cpp.o" \
-"CMakeFiles/superMC.e.dir/KLNModel.cpp.o" \
-"CMakeFiles/superMC.e.dir/OverLap.cpp.o" \
-"CMakeFiles/superMC.e.dir/Largex.cpp.o" \
-"CMakeFiles/superMC.e.dir/Regge96.cpp.o" \
-"CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o" \
-"CMakeFiles/superMC.e.dir/MathBasics.cpp.o" \
-"CMakeFiles/superMC.e.dir/ParameterReader.cpp.o" \
-"CMakeFiles/superMC.e.dir/arsenal.cpp.o" \
-"CMakeFiles/superMC.e.dir/EOS.cpp.o" \
-"CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o" \
-"CMakeFiles/superMC.e.dir/NBD.cpp.o" \
-"CMakeFiles/superMC.e.dir/RandomVariable.cpp.o" \
-"CMakeFiles/superMC.e.dir/TableFunction.cpp.o" \
-"CMakeFiles/superMC.e.dir/Table.cpp.o" \
-"CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o" \
-"CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o" \
-"CMakeFiles/superMC.e.dir/Particle.cpp.o" \
-"CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o" \
-"CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o"
+"CMakeFiles/superMC.e.dir/main.o" \
+"CMakeFiles/superMC.e.dir/Bases.o" \
+"CMakeFiles/superMC.e.dir/MCnucl.o" \
+"CMakeFiles/superMC.e.dir/GlueDensity.o" \
+"CMakeFiles/superMC.e.dir/MakeDensity.o" \
+"CMakeFiles/superMC.e.dir/KLNModel.o" \
+"CMakeFiles/superMC.e.dir/OverLap.o" \
+"CMakeFiles/superMC.e.dir/Largex.o" \
+"CMakeFiles/superMC.e.dir/Regge96.o" \
+"CMakeFiles/superMC.e.dir/rcBKfunc.o" \
+"CMakeFiles/superMC.e.dir/MathBasics.o" \
+"CMakeFiles/superMC.e.dir/ParameterReader.o" \
+"CMakeFiles/superMC.e.dir/arsenal.o" \
+"CMakeFiles/superMC.e.dir/EOS.o" \
+"CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o" \
+"CMakeFiles/superMC.e.dir/NBD.o" \
+"CMakeFiles/superMC.e.dir/RandomVariable.o" \
+"CMakeFiles/superMC.e.dir/TableFunction.o" \
+"CMakeFiles/superMC.e.dir/Table.o" \
+"CMakeFiles/superMC.e.dir/HulthenFunc.o" \
+"CMakeFiles/superMC.e.dir/GaussianDistribution.o" \
+"CMakeFiles/superMC.e.dir/Particle.o" \
+"CMakeFiles/superMC.e.dir/ParticipantRHIC.o" \
+"CMakeFiles/superMC.e.dir/ParticipantLHC.o"
 
 # External object files for target superMC.e
 superMC_e_EXTERNAL_OBJECTS =
 
-src/superMC.e: src/CMakeFiles/superMC.e.dir/main.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/Bases.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/OverLap.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/Largex.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/Regge96.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/arsenal.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/EOS.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/NBD.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/Table.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/Particle.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o
-src/superMC.e: src/CMakeFiles/superMC.e.dir/build.make
-src/superMC.e: src/CMakeFiles/superMC.e.dir/link.txt
+superMC.e: CMakeFiles/superMC.e.dir/main.o
+superMC.e: CMakeFiles/superMC.e.dir/Bases.o
+superMC.e: CMakeFiles/superMC.e.dir/MCnucl.o
+superMC.e: CMakeFiles/superMC.e.dir/GlueDensity.o
+superMC.e: CMakeFiles/superMC.e.dir/MakeDensity.o
+superMC.e: CMakeFiles/superMC.e.dir/KLNModel.o
+superMC.e: CMakeFiles/superMC.e.dir/OverLap.o
+superMC.e: CMakeFiles/superMC.e.dir/Largex.o
+superMC.e: CMakeFiles/superMC.e.dir/Regge96.o
+superMC.e: CMakeFiles/superMC.e.dir/rcBKfunc.o
+superMC.e: CMakeFiles/superMC.e.dir/MathBasics.o
+superMC.e: CMakeFiles/superMC.e.dir/ParameterReader.o
+superMC.e: CMakeFiles/superMC.e.dir/arsenal.o
+superMC.e: CMakeFiles/superMC.e.dir/EOS.o
+superMC.e: CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o
+superMC.e: CMakeFiles/superMC.e.dir/NBD.o
+superMC.e: CMakeFiles/superMC.e.dir/RandomVariable.o
+superMC.e: CMakeFiles/superMC.e.dir/TableFunction.o
+superMC.e: CMakeFiles/superMC.e.dir/Table.o
+superMC.e: CMakeFiles/superMC.e.dir/HulthenFunc.o
+superMC.e: CMakeFiles/superMC.e.dir/GaussianDistribution.o
+superMC.e: CMakeFiles/superMC.e.dir/Particle.o
+superMC.e: CMakeFiles/superMC.e.dir/ParticipantRHIC.o
+superMC.e: CMakeFiles/superMC.e.dir/ParticipantLHC.o
+superMC.e: CMakeFiles/superMC.e.dir/build.make
+superMC.e: CMakeFiles/superMC.e.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable superMC.e"
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/superMC.e.dir/link.txt --verbose=$(VERBOSE)
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/superMC.e.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/superMC.e.dir/build: src/superMC.e
-.PHONY : src/CMakeFiles/superMC.e.dir/build
+CMakeFiles/superMC.e.dir/build: superMC.e
+.PHONY : CMakeFiles/superMC.e.dir/build
 
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/main.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/Bases.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/MCnucl.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/GlueDensity.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/MakeDensity.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/KLNModel.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/OverLap.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/Largex.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/Regge96.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/rcBKfunc.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/MathBasics.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/ParameterReader.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/arsenal.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/EOS.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/GaussianNucleonsCal.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/NBD.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/RandomVariable.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/TableFunction.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/Table.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/HulthenFunc.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/GaussianDistribution.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/Particle.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/ParticipantRHIC.cpp.o.requires
-src/CMakeFiles/superMC.e.dir/requires: src/CMakeFiles/superMC.e.dir/ParticipantLHC.cpp.o.requires
-.PHONY : src/CMakeFiles/superMC.e.dir/requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/main.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/Bases.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/MCnucl.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/GlueDensity.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/MakeDensity.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/KLNModel.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/OverLap.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/Largex.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/Regge96.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/rcBKfunc.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/MathBasics.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/ParameterReader.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/arsenal.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/EOS.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/GaussianNucleonsCal.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/NBD.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/RandomVariable.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/TableFunction.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/Table.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/HulthenFunc.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/GaussianDistribution.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/Particle.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/ParticipantRHIC.o.requires
+CMakeFiles/superMC.e.dir/requires: CMakeFiles/superMC.e.dir/ParticipantLHC.o.requires
+.PHONY : CMakeFiles/superMC.e.dir/requires
 
-src/CMakeFiles/superMC.e.dir/clean:
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && $(CMAKE_COMMAND) -P CMakeFiles/superMC.e.dir/cmake_clean.cmake
-.PHONY : src/CMakeFiles/superMC.e.dir/clean
+CMakeFiles/superMC.e.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/superMC.e.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/superMC.e.dir/clean
 
-src/CMakeFiles/superMC.e.dir/depend:
-	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles/superMC.e.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : src/CMakeFiles/superMC.e.dir/depend
+CMakeFiles/superMC.e.dir/depend:
+	cd /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/CMakeFiles/superMC.e.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/superMC.e.dir/depend
 

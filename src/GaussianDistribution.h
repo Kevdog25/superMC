@@ -11,7 +11,7 @@ class GaussianDistribution: public RandomVariable
 
 private:
 	double mu, sigma;
-      int CDF_array_size;
+    int CDF_array_size;
 	vector<double>* CDF;
 	vector<double>* CDF_x;
 
@@ -23,7 +23,7 @@ public:
 
 	double pdf(double);
 	double rand();
-      double invCDF(double y);
+    double invCDF(double y);
 };
 
 #endif

@@ -111,12 +111,12 @@
 },
 {
   "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
-  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/ParticipantLHC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp",
-  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp"
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/ParticipantRHIC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp"
 },
 {
   "directory": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src",
-  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/ParticipantRHIC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp",
-  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantRHIC.cpp"
+  "command": "/usr/bin/g++    -g3 -gdwarf-2   -o CMakeFiles/superMC.e.dir/ParticipantLHC.o -c /home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp",
+  "file": "/home/kevin/Desktop/iEBE-master/EBE-Node/superMC-master/src/ParticipantLHC.cpp"
 }
 ]

@@ -1884,6 +1884,7 @@ void MakeDensity::generateEccTable(int nevent)
     cout << "Projectile is missing. Dumping target entropy." << endl;
   if(targ->getAtomic() == 0)
     cout << "Target is missing. Dumping projectile entropy." << endl;
+
   // Time things to give an eta.
   Stopwatch swK;
   double de_dt;
@@ -1924,6 +1925,11 @@ void MakeDensity::generateEccTable(int nevent)
          {
             cutdSdypassFlag = false;
             break;
+         }
+         else
+         {
+         	char file[] = {'z','z','z'};
+         	mc->dumpBinaryTable(file);
          }
       }
       // entropy first
